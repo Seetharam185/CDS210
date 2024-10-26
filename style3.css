@@ -1,0 +1,63 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url(https://thumbs.dreamstime.com/b/winter-evening-view-bernina-express-lights-illuminating-snowy-path-sunset-tinted-sky-alps-creating-inviting-atmosphere-329687936.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+    color: #333;
+}
+
+header {
+    background-color: #2b3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #4e5d6c;
+}
+
+.btn {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+
+
+.info {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #2b3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

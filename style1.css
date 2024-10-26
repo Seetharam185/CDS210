@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-image: url(https://thumbs.dreamstime.com/b/winter-evening-view-bernina-express-lights-illuminating-snowy-path-sunset-tinted-sky-alps-creating-inviting-atmosphere-329687936.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rgb(255, 255, 255);
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.signup-form {
+    background-color: rgb(255 255 255);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(255 255 255);
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255 255 255);
+}
+
+.input-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-box input,
+.input-box select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(221 221 221);
+    border-radius: 4px;
+}
+
+.input-box input:focus,
+.input-box select:focus {
+    border-color: rgb(255 255 255);
+    outline: none;
+}
+
+.gender,
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    color: rgb(255 255 255);
+}
+
+.gender label,
+.checkbox label {
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(255 255 255);
+    border: none;
+    border-radius: 4px;
+    color: rgb(255 255 255);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: rgb(255 255 255);
+}
